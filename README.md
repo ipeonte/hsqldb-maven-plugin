@@ -10,7 +10,7 @@ Password is the same as database alias
 
 - **database** - absolute path to database, for ex. ${basedir}/target/db/test
 - **alias** - alias used to connect over the tcp/ip. For ex. if alias=test than JDBC connection string
-will be jdbc:hsqldb:hsql://localhost/test
+will be *jdbc:hsqldb:hsql://localhost/test*
 - **skip** - Flag to skip (True) server start during integration phase or not (False). Default: false
 - **daemon** - Start server as daemon. Default: false
 
