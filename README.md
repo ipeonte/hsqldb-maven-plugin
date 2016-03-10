@@ -56,5 +56,5 @@ will be jdbc:hsqldb:hsql://localhost/test
 
 ## Command line usage
 mvn hsqldb:start  
-mvn hsqldb:start
+mvn hsqldb:stop
 
