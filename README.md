@@ -1,7 +1,7 @@
 # hsqldb-maven-plugin
 
-Simple maven plugin to start/stop HSQLDB database as standalone server
-Used for maven integration test phase
+Simple maven plugin to start/stop *HSQLDB* database.  
+Can be used during maven integration-test phase or start *HSQLDB* as standalone server.
 
 ## Configuration Parameters
 There is no password in configuration
