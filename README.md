@@ -8,14 +8,15 @@ There is no password in configuration
 Database username must be *SA*
 Password is the same as database alias
 
-- database - absolute path to database, for ex. ${basedir}/target/db/test
-- alias - alias used to connect over the tcp/ip. For ex. if alias=test than JDBC connection string
+- **database** - absolute path to database, for ex. ${basedir}/target/db/test
+- **alias** - alias used to connect over the tcp/ip. For ex. if alias=test than JDBC connection string
 will be jdbc:hsqldb:hsql://localhost/test
-Example of configuration
-- skip - Flag to skip (True) server start during integration phase or not (False). Default: false
-- daemon - Start server as daemon. Default: false
+- **skip** - Flag to skip (True) server start during integration phase or not (False). Default: false
+- **daemon** - Start server as daemon. Default: false
 
-## Plugin usage example 
+## Plugin usage example
+
+```xml
 <properties>
 	<test-db>${basedir}/target/db/test</test-db>
 </properties>
@@ -51,8 +52,9 @@ Example of configuration
 		</execution>
 	</executions>
 </plugin>
+```
 
 ## Command line usage
-mvn hsqldb:start
+mvn hsqldb:start  
 mvn hsqldb:start
 
